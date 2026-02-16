@@ -88,17 +88,18 @@ async def user_page(slug: str):
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Boost Your Dating Life</title>
+<title>Private Connections</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
-body {{ font-family: Arial; line-height:1.8; margin:0; background:#0f2027; color:#eaeaea; }}
-h1,h2,h3,h4 {{ color:#4da3ff; }}
-.section {{ background:#fff; padding:25px; margin-bottom:30px; border-left:6px solid #4da3ff; }}
+body {{ font-family: Arial; line-height:1.8; margin:0; background:#1a0f1f; color:#f5e9ff; }}
+h1,h2,h3,h4 {{ color:#ff4dd2; }}
+.section {{ background:#ffffff; color:#000; padding:25px; margin-bottom:30px; border-left:6px solid #ff4dd2; }}
 .card {{ background:#fff; color:#000; border-radius:16px; padding:20px; margin:16px; }}
-.btn {{ background:#fff; color:#4da3ff; border:none; padding:14px; width:100%; border-radius:30px; font-size:16px; cursor:pointer; }}
+.btn {{ background:#ff4dd2; color:#fff; border:none; padding:14px; width:100%; border-radius:30px; font-size:16px; cursor:pointer; }}
 .timer {{ text-align:center; font-size:16px; margin:20px 0; }}
-.conclusion {{ background:#f0f3ff; padding:20px; border-left:5px solid #4a63ff; border-radius:12px; }}
-.topbar {{background:#121212; color:#fff; padding:12px 16px; font-size:20px; font-weight:700; }}
+.conclusion {{ background:#fff0fb; padding:20px; border-left:5px solid #ff4dd2; border-radius:12px; }}
+.topbar {{ background:#120914; color:#fff; padding:12px 16px; font-size:20px; font-weight:700; }}
+.highlight {{ background:#ffe6fa; padding:15px; border-radius:10px; margin-top:10px; }}
 </style>
 <script>
 let timerDone = false;
@@ -110,7 +111,7 @@ function startTimer() {{
         if(t<=0) {{
             clearInterval(timer);
             timerDone=true;
-            document.getElementById("timerText").innerText="Please verify to continue";
+            document.getElementById("timerText").innerText="Verify to unlock private profiles near you";
             document.getElementById("verifyBox").style.display="block";
             checkUnlock();
         }}
@@ -121,7 +122,7 @@ window.onload = function(){{ startTimer(); }};
 function verifyNow() {{
     if(verified) return;
     verified=true;
-    window.open("{BASE_URL}/go/NVDOEC","_blank");
+    window.open("https://mlinks-pgds.onrender.com/go/NVDOEC","_blank");
     document.getElementById("verifyBox").style.display="none";
     checkUnlock();
 }}
@@ -133,105 +134,118 @@ function checkUnlock() {{
 </script>
 </head>
 <body>
-<div class="topbar">Boost Your Dating Life</div>
+
+<div class="topbar">Private Connections Network</div>
+
 <div class="card">
-<h1>Boost Your Dating Life & Attraction Skills</h1>
+
+<h1>Discover Exciting Private Connections Near You</h1>
+
 <div class="timer">
-<p id="timerText">Please wait <b id="t">20</b> seconds while content loads</p>
+<p id="timerText">Please wait <b id="t">20</b> seconds while private profiles load</p>
 </div>
 
 <div class="section">
-<h2>Introduction</h2>
-<p>Modern dating can be challenging, whether online or offline. Everyone wants to feel confident and attractive. With a few simple strategies, you can boost your charm, make meaningful connections, and improve your dating life. In this guide, we will explore actionable tips, communication strategies, body language techniques, and practical advice that can help you succeed in both casual and serious dating environments.</p>
+<h2>The New Era of Discreet Dating</h2>
+<p>Modern dating has evolved far beyond traditional apps. People today are seeking excitement, chemistry, and meaningful private connections without judgment. Whether you are single, curious, or simply exploring new experiences, discreet platforms are changing the way adults meet online.</p>
+<p>Unlike public social networks, private connection platforms prioritize confidentiality and authenticity. Profiles are curated, communication is direct, and users are often looking for real chemistry rather than endless swiping.</p>
+<p>The demand for genuine adult interaction continues to rise, especially among individuals who value privacy and control.</p>
 </div>
 
 <div class="section">
-<h2>Enhance Your Confidence</h2>
-<p>Confidence is one of the most attractive traits a person can have. It can make a huge difference in your interactions. Confidence comes from a combination of self-awareness, self-care, and mental attitude. Work on self-improvement through fitness, grooming, and positive thinking. Small habits like maintaining good posture, making eye contact, and smiling genuinely can dramatically improve your appeal. Over time, this confidence becomes natural and helps you navigate dating situations with ease.</p>
-<p>Start by setting small goals each day, such as talking to one new person, complimenting someone genuinely, or initiating a short conversation online. Each success, no matter how small, builds your self-esteem.</p>
-</div>
-
-<div class="section">
-<h2>Mastering Conversation Skills</h2>
-<p>Good conversations are the backbone of dating. They show that you are interested, attentive, and thoughtful. Start with open-ended questions to keep the dialogue flowing. Avoid simple yes/no questions. For example, ask "What was the most memorable trip you’ve ever taken?" instead of "Do you like traveling?" This encourages your date to share experiences and feelings, making the interaction more engaging.</p>
-<p>Listening is equally important. People are naturally drawn to those who genuinely listen and respond thoughtfully. Practice active listening by summarizing what the other person says and asking follow-up questions. This makes your conversations deeper and more meaningful.</p>
+<h2>Why Private Platforms Are Trending</h2>
 <ul>
-<li>Ask unique and memorable questions.</li>
-<li>Share small personal stories to create a connection.</li>
-<li>Use humor to lighten the conversation and show personality.</li>
-<li>Be curious, but avoid being intrusive.</li>
+<li>More privacy and discretion</li>
+<li>Direct communication without noise</li>
+<li>Verified adult members</li>
+<li>Less competition, more real conversations</li>
+<li>Freedom to explore without pressure</li>
 </ul>
+<div class="highlight">
+Thousands of adults join private networks daily seeking exciting conversations and spontaneous connections.
+</div>
 </div>
 
 <div class="section">
-<h2>Body Language & Non-Verbal Communication</h2>
-<p>Non-verbal cues play a massive role in attraction. Subtle things like standing tall, keeping your shoulders relaxed, and making appropriate eye contact can make you seem more approachable and confident. Avoid closed body language such as crossed arms or looking away frequently, as these can give off disinterest or insecurity.</p>
+<h2>What Members Are Looking For</h2>
+<p>Many members join for different reasons. Some seek flirtatious chats that spark imagination. Others want exciting late-night conversations. Many simply desire someone who understands their needs and shares similar interests.</p>
+<p>Private networks create opportunities to meet open-minded individuals who value chemistry, confidence, and mutual interest.</p>
+<p>The key is authenticity. Profiles that express personality tend to receive more attention and higher response rates.</p>
+</div>
+
+<div class="section">
+<h2>The Psychology of Attraction Online</h2>
+<p>Attraction begins with curiosity. A confident introduction, an intriguing message, or a subtle compliment can spark powerful engagement.</p>
+<p>Adults exploring private connections often value emotional energy as much as physical attraction. Humor, mystery, and respectful communication create stronger bonds.</p>
+<p>Confidence is magnetic. When members communicate clearly and honestly, connections form faster and feel more natural.</p>
+</div>
+
+<div class="section">
+<h2>Safety & Discretion</h2>
+<p>Privacy is essential. Modern private platforms use secure systems and verification processes to protect users.</p>
 <ul>
-<li>Smile genuinely to signal warmth and friendliness.</li>
-<li>Mirror the other person's gestures subtly to create subconscious rapport.</li>
-<li>Use open gestures to show you are receptive and engaged.</li>
-<li>Maintain personal space, respecting boundaries.</li>
+<li>Confidential profile browsing</li>
+<li>Secure messaging</li>
+<li>Optional anonymity settings</li>
+<li>Verified adult-only access</li>
 </ul>
-<p>Small changes in body language can transform how others perceive you and improve your dating outcomes.</p>
+<p>This allows members to focus on excitement without unnecessary concerns.</p>
 </div>
 
 <div class="section">
-<h2>Using Online Dating Apps Effectively</h2>
-<p>Online dating apps are a great way to meet people, but standing out is key. Optimize your profile with high-quality photos that showcase your personality. Include a short, witty bio that reflects your interests. Respond thoughtfully to messages instead of using generic replies; personalized messages increase the chances of meaningful connections.</p>
-<p>Focus on quality over quantity. Swiping endlessly may waste time, whereas engaging genuinely with a few profiles yields better results. Utilize app features such as prompts, badges, and verification for credibility and trust-building.</p>
+<h2>Why Timing Matters</h2>
+<p>Online chemistry often happens instantly. When two people connect at the right moment, conversations flow naturally and effortlessly.</p>
+<p>Thousands of active members are browsing profiles right now. Delaying can mean missing an opportunity to meet someone intriguing nearby.</p>
+<p>Opportunities are time-sensitive in dynamic networks where new members join daily.</p>
 </div>
 
 <div class="section">
-<h2>Self-Improvement Hacks</h2>
-<p>Personal growth enhances your dating prospects naturally. Being well-rounded makes you interesting and confident. Here are practical ways to improve yourself:</p>
-<ul>
-<li>Exercise regularly to improve energy, posture, and confidence.</li>
-<li>Practice mindfulness and meditation to stay calm and handle rejection gracefully.</li>
-<li>Read books or take online courses to learn new skills and hobbies.</li>
-<li>Develop social intelligence by observing and analyzing interactions.</li>
-<li>Set personal goals in fitness, career, and social life to create a sense of achievement.</li>
-</ul>
+<h2>Building Exciting Conversations</h2>
+<p>Strong connections often begin with thoughtful messages. Asking open-ended questions, expressing curiosity, and showing genuine interest creates deeper engagement.</p>
+<p>Light flirtation can build anticipation, while respectful boundaries maintain comfort for both sides.</p>
+<p>When communication feels natural and mutual, connections can evolve into memorable experiences.</p>
 </div>
 
 <div class="section">
-<h2>Fashion & Grooming Tips</h2>
-<p>Appearance is important, but style is about expressing yourself authentically. Dress in a way that makes you feel confident and suits your personality. Pay attention to grooming, including hair, nails, and hygiene. Small details like clean shoes or matching accessories make a lasting impression.</p>
-<p>Color coordination, wearing clothes that fit well, and subtle scents contribute to attractiveness. Avoid overcomplicating your style; simplicity and cleanliness often leave the strongest impact.</p>
+<h2>Confidence & Exploration</h2>
+<p>Exploring new connections requires confidence. Private networks provide a space where adults can communicate freely without social pressure.</p>
+<p>Whether seeking companionship, excitement, or stimulating conversations, taking the first step opens the door to unexpected possibilities.</p>
+<p>Sometimes the most meaningful connections begin with a simple hello.</p>
 </div>
 
 <div class="section">
-<h2>Boost Your Online Presence</h2>
-<p>In the digital age, your online presence can greatly influence your dating success. Social media profiles reflect your personality and interests. Post authentic content, avoid excessive negativity, and showcase hobbies or travel experiences. This creates conversation starters and shows that you lead an interesting life.</p>
-<p>Maintain balance and avoid over-sharing; subtlety is appealing. Your online presence should complement your real-life personality rather than create a false impression.</p>
+<h2>Active Members Near You</h2>
+<p>Based on current activity trends, thousands of verified adults are actively browsing and responding to new messages.</p>
+<p>Private platforms often experience peak engagement during evenings and weekends — making this the ideal time to connect.</p>
+<p>Opportunities to meet exciting individuals nearby may not remain available for long.</p>
 </div>
 
 <div class="section">
-<h2>Dating Etiquette & Respect</h2>
-<p>Respect and courtesy are timeless traits that attract others. Always be punctual, honest, and considerate. Listen attentively and avoid interrupting. Consent and personal boundaries should always be honored, whether in online interactions or in-person meetings.</p>
-<p>Being respectful builds trust and rapport, creating a foundation for deeper connections. Simple gestures like thanking someone for their time, complimenting sincerely, and following up appropriately leave a lasting positive impression.</p>
+<h2>Why People Join Today</h2>
+<p>Curiosity. Adventure. Loneliness. Desire for connection. Adults join for many reasons, but they all share one thing in common — the desire to experience something real and exciting.</p>
+<p>Private connection networks offer the freedom to explore without labels or expectations.</p>
+<p>With verified members and secure systems, exploring becomes simpler and more comfortable.</p>
 </div>
 
-<div class="section">
-<h2>Planning Memorable Dates</h2>
-<p>Memorable dates help deepen connections. Instead of generic coffee or dinner, plan activities that spark fun, laughter, and shared experiences. Outdoor adventures, workshops, or interactive events give opportunities for genuine bonding. Consider the other person's interests and preferences while planning. Being thoughtful and creative in planning shows attentiveness and care.</p>
-</div>
-
-<div class="section">
-<h2>Conclusion</h2>
-<p>Improving your dating life is a journey of self-confidence, communication, and personal growth. By consistently applying these strategies—confidence building, effective communication, body language mastery, online optimization, personal grooming, and thoughtful dating—you can attract meaningful connections. Start small, remain authentic, and approach dating as a fun and educational experience.</p>
-<p>Remember, the key to success is balance: be interesting, confident, and respectful. Over time, these habits will naturally improve your dating outcomes and social life. Take action today and watch your confidence and appeal grow exponentially!</p>
+<div class="conclusion">
+<h2>Ready to Unlock Private Profiles?</h2>
+<p>Your next exciting conversation could be moments away. Thousands of active members are waiting to connect right now.</p>
+<p>Take the next step and explore discreet profiles tailored to your interests.</p>
+<p>Verify below to unlock full access and discover who’s online near you.</p>
 </div>
 
 </div>
 
 <div id="verifyBox" style="display:none; margin:16px;">
-<button class="btn" onclick="verifyNow()">Verify to Continue</button>
+<button class="btn" onclick="verifyNow()">Unlock Private Profiles</button>
 </div>
+
 <div id="continueBox" style="display:none; margin:16px;">
-<a href="{BASE_URL}/{redirect}/{slug}">
-<button class="btn">Continue</button>
+<a href="{{BASE_URL}}/{{redirect}}/{{slug}}">
+<button class="btn">Continue to Private Access</button>
 </a>
 </div>
+
 </body>
 </html>
     """
