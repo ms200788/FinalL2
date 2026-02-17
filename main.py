@@ -74,6 +74,11 @@ async def send_to_channel(text):
     except:
         pass
 
+# ================= HEALTH =================
+@app.get("/health")
+async def health():
+    return {"status": "alive"}
+
 
 # ================= SELF PING =================
 
