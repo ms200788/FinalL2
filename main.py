@@ -320,7 +320,7 @@ Thousands of adults join private networks daily seeking exciting conversations a
 </div>
 
 <div id="continueBox" style="display:none; margin:16px;">
-<a href="{{BASE_URL}}/r/{{redirect}}/{{slug}}">
+<a href="{BASE_URL}/r/{redirect}/{slug}">
 <button class="btn">Continue to Private Access</button>
 </a>
 </div>
