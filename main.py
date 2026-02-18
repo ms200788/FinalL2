@@ -217,9 +217,9 @@ function checkUnlock() {{
 <div class="topbar">Private Connections Network</div>
 
 <div class="card">
-<div class="section">
-<h1>Discover Exciting Private Connections Near You</h1>
-</div>
+
+<h1>𝗗𝗶𝘀𝗰𝗼𝘃𝗲𝗿 𝗘𝘅𝗰𝗶𝘁𝗶𝗻𝗴 𝗣𝗿𝗶𝘃𝗮𝘁𝗲 𝗖𝗼𝗻𝗻𝗲𝗰𝘁𝗶𝗼𝗻𝘀 𝗡𝗲𝗮𝗿 𝗬𝗼𝘂</h1>
+
 <div class="timer">
 <p id="timerText">Please wait <b id="t">20</b> seconds.We are loading...</p>
 </div>
