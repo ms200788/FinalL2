@@ -163,7 +163,7 @@ async def user_page(slug: str):
     redirect = funnel[0]
 
     return f"""
-    <    <!DOCTYPE html>
+      <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -171,7 +171,8 @@ async def user_page(slug: str):
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
 body {{ font-family: Arial; line-height:1.8; margin:0; background:#1a0f1f; color:#f5e9ff; }}
-h1,h2,h3,h4 {{ color:#ff4dd2; }}
+h1 {{color:#121212; }}
+h2,h3,h4 {{ color:#ff4dd2; }}
 .section {{ background:#ffffff; color:#000; padding:25px; margin-bottom:30px; border-left:6px solid #ff4dd2; }}
 .card {{ background:#fff; color:#000; border-radius:16px; padding:20px; margin:16px; }}
 .btn {{ background:#ff4dd2; color:#fff; border:none; padding:14px; width:100%; border-radius:30px; font-size:16px; cursor:pointer; }}
