@@ -171,8 +171,7 @@ async def user_page(slug: str):
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
 body {{ font-family: Arial; line-height:1.8; margin:0; background:#1a0f1f; color:#f5e9ff; }}
-h1 {{color:#121212; }}
-h2,h3,h4 {{ color:#ff4dd2; }}
+h1,h2,h3,h4 {{ color:#ff4dd2; }}
 .section {{ background:#ffffff; color:#000; padding:25px; margin-bottom:30px; border-left:6px solid #ff4dd2; }}
 .card {{ background:#fff; color:#000; border-radius:16px; padding:20px; margin:16px; }}
 .btn {{ background:#ff4dd2; color:#fff; border:none; padding:14px; width:100%; border-radius:30px; font-size:16px; cursor:pointer; }}
@@ -191,7 +190,7 @@ function startTimer() {{
         if(t<=0) {{
             clearInterval(timer);
             timerDone=true;
-            document.getElementById("timerText").innerText="Verify to unlock private profiles near you";
+            document.getElementById("timerText").innerText="Scroll down & Verify";
             document.getElementById("verifyBox").style.display="block";
             checkUnlock();
         }}
@@ -218,11 +217,11 @@ function checkUnlock() {{
 <div class="topbar">Private Connections Network</div>
 
 <div class="card">
-
+<div class="section">
 <h1>Discover Exciting Private Connections Near You</h1>
-
+</div>
 <div class="timer">
-<p id="timerText">Please wait <b id="t">20</b> seconds while private profiles load</p>
+<p id="timerText">Please wait <b id="t">20</b> seconds.We are loading...</p>
 </div>
 
 <div class="section">
@@ -317,12 +316,12 @@ Thousands of adults join private networks daily seeking exciting conversations a
 </div>
 
 <div id="verifyBox" style="display:none; margin:16px;">
-<button class="btn" onclick="verifyNow()">Unlock Private Profiles</button>
+<button class="btn" onclick="verifyNow()">𝗩𝗲𝗿𝗶𝗳𝘆 𝗡𝗼𝘄</button>
 </div>
 
 <div id="continueBox" style="display:none; margin:16px;">
 <a href="{BASE_URL}/r/{redirect}/{slug}">
-<button class="btn">Continue to Private Access</button>
+<button class="btn">Continue</button>
 </a>
 </div>
 
