@@ -122,7 +122,6 @@ async def webhook(req: Request):
         if CHANNEL_ID:
             await send_message(CHANNEL_ID, f"""
 {slug}|{r_code}|{k_code}|{u_code}|{link}
-Final: {BASE_URL}/u/{u_code}/k/{k_code}/r/{r_code}/{slug}
 """)
 
         # ✅ Owner gets ONLY entrance + final
