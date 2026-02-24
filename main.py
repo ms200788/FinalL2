@@ -44,6 +44,16 @@ async def get_funnel(slug):
     async with lock:
         return funnels.get(slug)
 
+
+# ================= UNIQUE GENERATOR =================
+async def generate_unique_slug():
+    while True:
+        slug = gen_code(6)
+        async with lock:
+            if slug not in funnels:
+                return slug
+
+
 # ================= TELEGRAM =================
 async def send_message(chat_id, text):
     if not BOT_TOKEN:
