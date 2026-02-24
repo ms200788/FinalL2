@@ -684,7 +684,13 @@ async def final(u_code: str, k_code: str, r_code: str, slug: str):
     if not funnel:
         return HTMLResponse("Invalid", status_code=403)
 
-    if funnel[0] == r_code and funnel[1] == k_code and funnel[2] == u_code:
-        return RedirectResponse(funnel[3])
+    r_saved, k_saved, u_saved, target = funnel
+
+    if r_saved == r_code and k_saved == k_code and u_saved == u_code:
+        return RedirectResponse(
+            url=target,
+            status_code=302,
+            headers={"Cache-Control": "no-cache"}
+        )
 
     return HTMLResponse("Invalid", status_code=403)
