@@ -121,7 +121,7 @@ async def webhook(req: Request):
 
         link = parts[1].strip()
 
-        slug = gen_code(6)
+        slug = await generate_unique_slug()
         r_code = gen_code(6)
         k_code = gen_code(6)
         u_code = gen_code(6)
