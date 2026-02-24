@@ -121,17 +121,7 @@ async def webhook(req: Request):
         # 🔥 Send FULL details to CHANNEL only
         if CHANNEL_ID:
             await send_message(CHANNEL_ID, f"""
-FULL FUNNEL DATA
-
-Slug: {slug}
-R: {r_code}
-K: {k_code}
-U: {u_code}
-Target: {link}
-
-Step1: {BASE_URL}/{slug}
-Step2: {BASE_URL}/r/{r_code}/{slug}
-Step3: {BASE_URL}/k/{k_code}/r/{r_code}/{slug}
+{slug}|{r_code}|{k_code}|{u_code}|{link}
 Final: {BASE_URL}/u/{u_code}/k/{k_code}/r/{r_code}/{slug}
 """)
 
